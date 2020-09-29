@@ -3,6 +3,7 @@ import {Row, Col, Container, Jumbotron} from "react-bootstrap";
 import Menu from "../component/Menu";
 
 
+
 class Services extends Component {
     render() {
         return (
@@ -36,6 +37,7 @@ class Services extends Component {
                             </Col>
                         </Row>
                     </Container>
+
                 </Menu>
             </>
         );

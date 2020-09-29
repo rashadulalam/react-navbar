@@ -4,7 +4,6 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
-import Footer from "./Footer";
 class Myroute extends Component {
     render() {
         return (
@@ -16,7 +15,6 @@ class Myroute extends Component {
                     <Route exact path="/contact" component={Contact} />
 
                 </Switch>
-                <Footer />
             </>
         );
     }

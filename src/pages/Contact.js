@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Button, Col, Container, Form, Jumbotron, Row} from "react-bootstrap";
 import Menu from "../component/Menu";
 
+
 class Contact extends Component {
     render() {
         return (
@@ -49,6 +50,7 @@ class Contact extends Component {
 
                         </Row>
                     </Container>
+
                 </Menu>
             </>
         );

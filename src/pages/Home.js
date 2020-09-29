@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Jumbotron, Button, Container, Row, Col, Card} from "react-bootstrap";
 import Menu from "../component/Menu";
 
+
 class Home extends Component {
     render() {
         return (

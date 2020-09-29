@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Button, Col, Container, Jumbotron, Row} from "react-bootstrap";
+import {Col, Container, Jumbotron, Row} from "react-bootstrap";
 import Menu from "../component/Menu";
+
 
 class About extends Component {
     render() {
@@ -21,6 +22,7 @@ class About extends Component {
                             </Col>
                         </Row>
                     </Container>
+
                 </Menu>
             </>
         );
